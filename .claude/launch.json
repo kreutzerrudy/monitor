@@ -3,8 +3,8 @@
   "configurations": [
     {
       "name": "LAN Monitor Stack",
-      "runtimeExecutable": "python",
-      "runtimeArgs": ["C:\\monitor\\preset_manager.py"],
+      "runtimeExecutable": "C:\\monitor\\monitor-rs\\target\\debug\\monitor-server.exe",
+      "runtimeArgs": [],
       "port": 9090
     }
   ]

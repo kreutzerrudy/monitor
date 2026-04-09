@@ -1,0 +1,3 @@
+[workspace]
+members = ["crates/monitor-core", "crates/monitor-platform", "crates/monitor-server"]
+resolver = "2"

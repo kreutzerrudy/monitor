@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "LAN Monitor Stack",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["C:\\monitor\\preset_manager.py"],
+      "port": 9090
+    }
+  ]
+}

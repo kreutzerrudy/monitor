@@ -1,0 +1,28 @@
+{
+  "blank": {
+    "ffmpeg_input": ["-f", "lavfi", "-i", "color=black:s=1920x1080:r=1"]
+  },
+  "image": {
+    "ffmpeg_input": ["__image__"]
+  },
+  "desktop": {
+    "ffmpeg_input": ["__dxgi__"]
+  },
+  "steam": {
+    "ffmpeg_input": ["__dxgi__"]
+  },
+  "media": {
+    "app": "C:\\Program Files\\mpv\\mpv.exe",
+    "app_args": ["--fullscreen", "--loop", "--title=LAN-Monitor", "C:\\monitor\\media\\playlist.m3u"],
+    "startup_delay": 1,
+    "window_title": "LAN-Monitor",
+    "ffmpeg_input": ["__window__"]
+  },
+  "custom": {
+    "app": "C:\\path\\to\\app.exe",
+    "app_args": [],
+    "startup_delay": 2,
+    "window_title": "",
+    "ffmpeg_input": ["__window__"]
+  }
+}

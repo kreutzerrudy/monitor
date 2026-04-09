@@ -1,0 +1,7 @@
+ffmpeg/
+mediamtx/
+logs/
+__pycache__/
+*.pyc
+standby.png
+media/

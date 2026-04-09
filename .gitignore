@@ -5,3 +5,4 @@ __pycache__/
 *.pyc
 standby.png
 media/
+monitor-rs/target/
